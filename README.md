@@ -1,1 +1,6 @@
+# KDM-Problem Sets
+
+PS(1-A)- https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20Sets/PS(1-A)/KDM(PS-1A).pdf
+PS(1-B)
+
 # KDM-Lab-Assignments
