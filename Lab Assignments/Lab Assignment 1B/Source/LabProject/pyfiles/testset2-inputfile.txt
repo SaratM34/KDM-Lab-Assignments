@@ -1,0 +1,4 @@
+C:/Users/user/Desktop/KDM/KDMProject/LabProject/testset2
+PA1.story
+PA2.story
+PA3.story
