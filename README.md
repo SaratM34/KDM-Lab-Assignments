@@ -4,3 +4,6 @@ PS(1-A)- https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20S
 PS(1-B)- https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20Sets/PS(1-B)/PS(1-B).pdf
 
 # KDM-Lab-Assignments
+
+Lab(1-A)- https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-A
+Lab(1-B)- https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-B
