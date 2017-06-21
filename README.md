@@ -6,4 +6,5 @@ PS(1-B)- https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20S
 # KDM-Lab-Assignments
 
 Lab(1-A)- https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-A <br />
-Lab(1-B)- https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-B
+Lab(1-B)- https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-B <br />
+Lab 2 - https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-2
