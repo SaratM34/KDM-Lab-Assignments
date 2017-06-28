@@ -10,4 +10,5 @@ PS(3) - https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20Se
 
 Lab(1-A)- https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-A <br />
 Lab(1-B)- https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-B <br />
-Lab 2 - https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-2
+Lab 2 - https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-2 <br />
+Lab 3 -  https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-3
