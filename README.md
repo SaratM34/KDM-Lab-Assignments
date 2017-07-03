@@ -5,6 +5,7 @@ PS(1-B)- https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20S
 PS(2-A)- https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20Sets/PS%20(2-A%20%26%20B)/KDM(PS-2A).pdf <br />
 PS(2-B)-https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20Sets/PS%20(2-A%20%26%20B)/PS%202B.pdf <br />
 PS(3) - https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20Sets/PS%203/Problem%20Set%203.pdf <br />
+PS(4) - https://github.com/SaratM34/KDM-Lab-Assignments/blob/master/Problem%20Sets/PS%204/PS%204.pdf
 
 # KDM-Lab-Assignments
 
