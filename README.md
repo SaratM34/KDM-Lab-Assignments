@@ -15,5 +15,6 @@
 **Lab(1-B)-** https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-1-B <br />
 **Lab 2 -** https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-2 <br />
 **Lab 3 -**  https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-3 <br />
-**Lab 4 -** https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-4
+**Lab 4 -** https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-4 <br />
+**Lab 5 -** https://github.com/SaratM34/KDM-Lab-Assignments/wiki/Lab-Assignment-6
  
