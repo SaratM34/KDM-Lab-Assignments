@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2017/6/lab6p2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2017/6/lab6p2">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <DataProperty IRI="#EntertainmentName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Philosophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Singing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surfing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volleyball"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ArtsandHumanitiesName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PetName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PC&apos;s"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPetName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sculpture"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConsumerElectronicsName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rodents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtsandHumanities"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSportName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hometheatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TV&apos;s"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArtsandHumanitiesName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsumerElectronics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poetry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisualArts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEntertainmentName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soccer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swimming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reptiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Birds"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SportName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsumerElectronicsName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horses"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ArtsandHumanities"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasArtsandHumanitiesName"/>
+            <Class IRI="#ArtsandHumanities"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Birds"/>
+        <Class IRI="#Pets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cats"/>
+        <Class IRI="#Pets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsumerElectronics"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasConsumerElectronicsName"/>
+            <Class IRI="#ConsumerElectronics"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#ConsumerElectronics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasEntertainmentName"/>
+            <Class IRI="#Entertainment"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <Class IRI="#Pets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hometheatre"/>
+        <Class IRI="#ConsumerElectronics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horses"/>
+        <Class IRI="#Pets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Painting"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pets"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pets"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPetName"/>
+            <Class IRI="#Pets"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poetry"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radio"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reptiles"/>
+        <Class IRI="#Pets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rodents"/>
+        <Class IRI="#Pets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sculpture"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Singing"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soccer"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSportName"/>
+            <Class IRI="#Sports"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surfing"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisualArts"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PC&apos;s"/>
+        <Class IRI="#ConsumerElectronics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TV&apos;s"/>
+        <Class IRI="#ConsumerElectronics"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Pets"/>
+        <NamedIndividual IRI="#Animals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Indoor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Outdoor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Entertainment"/>
+        <NamedIndividual IRI="#Stage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Entertainment"/>
+        <NamedIndividual IRI="#Theatre"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasArtsandHumanitiesName"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConsumerElectronicsName"/>
+        <Class IRI="#ConsumerElectronics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEntertainmentName"/>
+        <Class IRI="#Entertainment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPetName"/>
+        <Class IRI="#Pets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSportName"/>
+        <Class IRI="#Sports"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasArtsandHumanitiesName"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ArtsandHumanitiesName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConsumerElectronicsName"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ConsumerElectronicsName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEntertainmentName"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#EntertainmentName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPetName"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#PetName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSportName"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#SportName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ArtsandHumanitiesName"/>
+        <Class IRI="#ArtsandHumanities"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ConsumerElectronicsName"/>
+        <Class IRI="#ConsumerElectronics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EntertainmentName"/>
+        <Class IRI="#Entertainment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PetName"/>
+        <Class IRI="#Pets"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SportName"/>
+        <Class IRI="#Sports"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ArtsandHumanitiesName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ConsumerElectronicsName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EntertainmentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PetName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SportName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

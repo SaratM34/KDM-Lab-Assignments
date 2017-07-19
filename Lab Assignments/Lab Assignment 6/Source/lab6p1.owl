@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2017/6/lab6p1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2017/6/lab6p1">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#President"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProduct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPresident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secretary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FootBall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FullName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDirector"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlayer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MovieName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Politics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SportName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cricket"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cricket"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dance"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ID"/>
+            <Datatype abbreviatedIRI="xsd:unsignedInt"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#MovieName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FootBall"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movies"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politics"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasGender"/>
+            <Class IRI="#Gender"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politics"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPresident"/>
+            <Class IRI="#Politics"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politics"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#FullName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#President"/>
+        <Class IRI="#Politics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secretary"/>
+        <Class IRI="#Politics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#FullName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#SportName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ID"/>
+            <Datatype abbreviatedIRI="xsd:unsignedInt"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technology"/>
+        <NamedIndividual IRI="#Hardware"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technology"/>
+        <NamedIndividual IRI="#Software"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDirector"/>
+        <Class IRI="#Entertainment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlayer"/>
+        <Class IRI="#Sports"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPresident"/>
+        <Class IRI="#Politics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProduct"/>
+        <Class IRI="#Technology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDirector"/>
+        <Class IRI="#Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlayer"/>
+        <Class IRI="#Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPresident"/>
+        <Class IRI="#Gender"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MovieName"/>
+        <Class IRI="#Movies"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SportName"/>
+        <Class IRI="#Sports"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#FullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#MovieName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SportName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
